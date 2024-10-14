@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://wallpaper.dog/large/11026278.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(7px);
+}
+.named{
+    position: absolute;
+    font-size: 4rem;
+    color: #CBCBCB;
+    font-family: "Black Ops One", system-ui;
+    top: 39.5%;
+    right: 740px;
+    text-shadow: 3px 3px 2px black;
+}
+.icon {
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.header {
+    position: absolute;
+    background-color: #2B2B2B;
+    color: #CBCBCB;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 10%;
+    width: 100%;
+    left: 0%;
+}
+
+.logo img {
+    width: 50px;
+}
+.navigation {
+    margin-left: 100px;
+    margin-top: -25px;
+}
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #CBCBCB;
+    font-size: 16px;
+    font-weight: bold;
+    left: 10%;
+}
+
+.link{
+    position: absolute;
+    color: #CBCBCB;
+    top: 10px;
+    left: 65px;
+    font-family: "Roboto", sans-serif;
+}
+.arrow {
+    color: #CBCBCB;
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    right: 150px;
+    transform: translateY(-50%);
+}
+.link-name{
+    position: absolute;
+    color: #CBCBCB;
+    top: 67%;
+    left: 41.5%;
+    font-family: "Roboto", sans-serif;
+}
+h2{
+    position: absolute;
+    font-size: 1.5rem;
+    color: #CBCBCB;
+    font-family: "Black Ops One", system-ui;
+    top: 1.6%;
+    left: 13px;
+    z-index: 1001;
+}
+.top-bar {
+    background-color: #1E1E1E;
+    color: #CBCBCB;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
+}
+.donate{
+    position: absolute;
+    z-index: 1001;
+    top: 21px;
+    font-family: "Roboto", sans-serif;
+}
+.donate:hover{
+    text-decoration: underline;
+}
+.policy{
+    position: absolute;
+    z-index: 1001;
+    top: 21px;
+    margin-left: 90px;
+    font-family: "Roboto", sans-serif;
+}
+.policy:hover{
+    text-decoration: underline;
+}
+.uslugi{
+    position: absolute;
+    z-index: 1001;
+    top: 21px;
+    margin-left: 200px;
+    font-family: "Roboto", sans-serif;
+}
+.uslugi:hover{
+    text-decoration: underline;
+}
+
+.uslugi-popup {
+    display: none;
+    position: absolute;
+    background-color: #1E1E1E;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    top: 4.3%;
+    left: 360px;
+    z-index: 1001;
+}
+
+.uslugi-link:hover .uslugi-popup {
+    display: block;
+}
+
+.uslugi-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.uslugi-list li {
+    margin-bottom: 5px;
+}
+
+.uslugi-list li a {
+    display: block;
+    padding: 5px 10px;
+    color: #1E1E1E;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.uslugi-list li a:hover {
+    background-color: #f0f0f0;
+    color: #1E1E1E;
+}
+
+.we{
+    position: absolute;
+    z-index: 1001;
+    top: 20px;
+    margin-left: 290px;
+    font-family: "Roboto", sans-serif;
+}
+.we:hover{
+    text-decoration: underline;
+}
+.dwnld{
+    position: absolute;
+    border-radius: 15px;
+    width: 270px;
+    height: 50px;
+    top: 72%;
+    right: 43%;
+    font-family: "Roboto", sans-serif;
+    background-color: #333863;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 0;
+    transition-duration: 0.4s;
+}
+.dwnld:hover{
+    background-color: #45a049;
+}
+.signin{
+    position: absolute;
+    border-radius: 25px;
+    width: 100px;
+    height: 37px;
+    top: 1.2%;
+    right: 12%;
+    font-family: "Roboto", sans-serif;
+    background-color: #1E1E1E;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    z-index: 1001;
+}
+.signin:hover {
+    background-color: #565965;
+}
+
+.login{
+    position: absolute;
+    border-radius: 25px;
+    width: 100px;
+    height: 37px;
+    top: 1.2%;
+    right: 6%;
+    font-family: "Roboto", sans-serif;
+    background-color: #1E1E1E;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    z-index: 1001;
+}
+.login:hover {
+    background-color: #565965;
+}
